@@ -2,7 +2,6 @@ const mongoose=require('mongoose');
 require('dotenv').config();
 const mongoURL='mongodb://localhost:27017/TrackingSYstem';
 // const mongoURL=process.env.mongoURL;
-// const mongoURL="mongodb+srv://arpitabarode367:arpita0725@cluster0.dha37px.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(mongoURL,{
     useNewUrlParser:true,
     useUnifiedTopology:true
